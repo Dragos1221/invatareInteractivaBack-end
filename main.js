@@ -84,6 +84,10 @@ app.post("/register", (req, res) => {
   })
 })
 
+app.get("/" , (req,res)=>{
+  res.send("daaa");
+})
+
  
 app.listen(3123, ()=>{
   console.log("am portnit");
